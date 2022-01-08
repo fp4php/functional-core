@@ -31,7 +31,6 @@ use Whsv26\Functional\Core\Option\Some;
  * @template-covariant A
  * @psalm-yield A
  * @psalm-immutable
- * @psalm-suppress ImpureFunctionCall
  */
 abstract class Option
 {

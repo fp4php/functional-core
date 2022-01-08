@@ -14,7 +14,6 @@ use Whsv26\Functional\Core\Either\Right;
  * @template-covariant R
  * @psalm-yield R
  * @psalm-immutable
- * @psalm-suppress ImpureFunctionCall
  */
 abstract class Either
 {
