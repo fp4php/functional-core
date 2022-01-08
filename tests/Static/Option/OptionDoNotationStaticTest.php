@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Whsv26\Functional\Core\Tests\Static\Classes\Option;
+namespace Whsv26\Functional\Core\Tests\Static\Option;
 
 use Whsv26\Functional\Core\Option;
 use Whsv26\Functional\Core\Unit;

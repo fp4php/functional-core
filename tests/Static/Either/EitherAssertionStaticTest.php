@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Whsv26\Functional\Core\Tests\Static\Classes\Either;
+namespace Whsv26\Functional\Core\Tests\Static\Either;
 
 use Whsv26\Functional\Core\Either;
 use Error;
