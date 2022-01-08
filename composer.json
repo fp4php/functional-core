@@ -1,0 +1,35 @@
+{
+    "name": "whsv26/functional-core",
+    "description": "Core functional data structures",
+    "type": "library",
+    "authors": [
+        {
+            "name": "whsv26",
+            "email": "whsv26@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "ext-simplexml": "*",
+        "vimeo/psalm": "^4.11",
+        "phpunit/phpunit": "^9",
+        "php-coveralls/php-coveralls": "~2.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Whsv26\\Functional\\Core\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Whsv26\\Functional\\Core\\Psalm\\": "psalm/",
+            "Whsv26\\Functional\\Core\\Tests\\": "tests/"
+        }
+    }
+}

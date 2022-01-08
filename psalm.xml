@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<psalm
+    errorLevel="1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="https://getpsalm.org/schema/config"
+    xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
+>
+    <projectFiles>
+        <directory name="psalm"/>
+        <directory name="src"/>
+        <directory name="tests"/>
+        <ignoreFiles>
+            <directory name="vendor"/>
+        </ignoreFiles>
+    </projectFiles>
+    <plugins>
+        <pluginClass class="Whsv26\Functional\Core\Psalm\Plugin"/>
+    </plugins>
+    <issueHandlers>
+        <Trace errorLevel="error"/>
+
+        <InternalMethod errorLevel="suppress">
+            <errorLevel type="suppress">
+                <directory name="psalm"/>
+            </errorLevel>
+        </InternalMethod>
+        <InternalClass errorLevel="suppress">
+            <errorLevel type="suppress">
+                <directory name="psalm"/>
+            </errorLevel>
+        </InternalClass>
+        <InternalProperty errorLevel="suppress">
+            <errorLevel type="suppress">
+                <directory name="psalm"/>
+            </errorLevel>
+        </InternalProperty>
+
+        <DeprecatedMethod errorLevel="suppress">
+            <errorLevel type="suppress">
+                <directory name="tests"/>
+            </errorLevel>
+        </DeprecatedMethod>
+        <PropertyNotSetInConstructor errorLevel="suppress">
+            <errorLevel type="suppress">
+                <directory name="tests"/>
+            </errorLevel>
+        </PropertyNotSetInConstructor>
+        <UnusedClosureParam errorLevel="suppress"/>
+        <UnusedMethodCall errorLevel="suppress">
+            <errorLevel type="suppress">
+                <directory name="tests"/>
+            </errorLevel>
+        </UnusedMethodCall>
+    </issueHandlers>
+</psalm>
