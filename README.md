@@ -1,6 +1,6 @@
 ![psalm level](https://shepherd.dev/github/whsv26/functional-core/level.svg)
 ![psalm type coverage](https://shepherd.dev/github/whsv26/functional-core/coverage.svg)
-[![phpunit coverage](https://coveralls.io/repos/github/whsv26/functional-core/badge.svg)](https://coveralls.io/github/whsv26/functional)
+[![phpunit coverage](https://coveralls.io/repos/github/whsv26/functional-core/badge.svg)](https://coveralls.io/github/whsv26/functional-core)
 
 ---
 
