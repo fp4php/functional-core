@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Whsv26\\Functional\\Core\\": "src"
+            "Whsv26\\Functional\\Core\\": "src",
+            "Whsv26\\Functional\\Core\\Psalm\\": "psalm/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Whsv26\\Functional\\Core\\Psalm\\": "psalm/",
             "Whsv26\\Functional\\Core\\Tests\\": "tests/"
         }
     }
