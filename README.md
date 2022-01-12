@@ -9,14 +9,14 @@
 ### Composer 
 
 ```console
-$ composer require whsv26/functional-core
+composer require whsv26/functional-core
 ```
 
 ### Enable psalm plugin (optional)
 To improve type inference
 
 ```console
-$ vendor/bin/psalm-plugin enable Whsv26\\Functional\\Core\\Psalm\\Plugin
+vendor/bin/psalm-plugin enable Whsv26\\Functional\\Core\\Psalm\\Plugin
 ```
 
 # Option monad
