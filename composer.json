@@ -17,9 +17,8 @@
         "ext-simplexml": "*"
     },
     "require-dev": {
-        "vimeo/psalm": "^4.11",
-        "phpunit/phpunit": "^9",
-        "php-coveralls/php-coveralls": "~2.4.0"
+        "vimeo/psalm": "^4.18",
+        "phpunit/phpunit": "^9"
     },
     "autoload": {
         "psr-4": {
